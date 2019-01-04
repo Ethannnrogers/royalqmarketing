@@ -1,4 +1,4 @@
-body {
+html,body {
     width: 100%;
     height: auto;
     margin: 0px;
@@ -67,8 +67,8 @@ nav {
 }
 
 
-#jumbo-right{
-    
+#jumbo-right-2{
+    display: none;
 }
 
 #section-1 {
@@ -100,10 +100,29 @@ nav {
     text-shadow: 0.03em 0.03em rgb(48, 48, 48);
 }
 
-#leads {
-    /* color: rgb(253, 76, 76);
-    text-shadow: 0.015em 0.015em white; */
+#be-2 {
+    color: white;
+    text-align: center;   
+    font-size: 3em;
+    text-shadow: 0.02em 0.02em rgb(48, 48, 48);
 }
+
+#incr-2 {
+    color: white;
+    text-align: center;
+    font-size: 5.5em;
+    margin-top: 0.35em;
+    margin-bottom: 0.5em;
+    text-shadow: 0.015em 0.015em rgb(48, 48, 48);
+}
+
+#we-2 {
+    color: white;
+    text-align: center;
+    font-size: 2em;
+    text-shadow: 0.03em 0.03em rgb(48, 48, 48);
+}
+
 
 /* ===== JUMBOTRON ===== */
 
@@ -128,6 +147,10 @@ nav {
 .h5-block {
     font-size: 1.4em;
     margin-bottom: 1.3em;
+}
+
+#row-2 {
+    display: none;
 }
 
 /* ===== SECTION TWO ===== */
@@ -202,7 +225,7 @@ nav {
 }
 
 #seo-pic {
-    padding-top: 3.5em;
+    padding-top: 35%;
     width: 100%;
     height: auto;
 }
@@ -471,6 +494,104 @@ nav {
     }
   }
   
+
+
+  @media only screen and (max-width: 1200px) {
+    
+    #jumbo-right {
+        padding-left: 5em;
+    }
+
+    #incr {
+        font-size: 4em;
+        padding: none;
+    }
+
+    #section-1 {
+        padding: 4em 0 4em 0;
+    }
+
+    #contactinfo {
+        margin-top: 2em;
+    }
+   
+}
+
+@media only screen and (max-width: 995px) {
+    
+  #jumbo-left {
+      display: none;
+  }
+
+  #jumbo-right {
+      width: 100%;
+      display: none;
+  }
+   
+  #jumbo-right-2 {
+      display: block;
+  }
+
+  .h5-block {
+      font-size: 4em;
+  }
+
+  .txt-incr {
+      font-size:2em;
+  }
+
+  .title-text {
+      font-size: 6em;
+  }
+
+  #goi {
+      font-size: 4em;
+  }
+
+  .p-text {
+      font-size: 2.5em;
+  }
+
+  #seo-pic {
+      display: none;
+  }
+
+  #row-1 {
+      display: none;
+  }
+
+  #row-2 {
+      display: block;
+  }
+
+  #form {
+      display: none;
+  }
+}
+
+
+@media only screen and (max-width: 375px) {
+    
+    .iedit {
+        display: none;
+    }
+
+    #copy {
+        text-align: center;
+    }
+
+    #googlepart {
+        display: none;
+    }
+
+    #incr-2 {
+        font-size: 3.5em;
+    }
+   
+}
+
+
+
 
   /* * {
     background: #000 !important;
