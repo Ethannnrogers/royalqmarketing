@@ -1,12 +1,10 @@
-html,body {
+html {
     width: 100%;
-    height: auto;
+    height: 100%;
     margin: 0px;
     padding: 0px;
     overflow-x: hidden; 
 }
-
-
 
 /* ===== NAVIGATION BAR ===== */
 nav {
